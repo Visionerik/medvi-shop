@@ -9,20 +9,20 @@ export default function Header() {
   const { t } = useLanguage();
 
   const navLinks = [
-    { label: t.nav.weightLoss, href: "#weight-loss" },
-    { label: t.nav.womensHealth, href: "#womens-health" },
-    { label: t.nav.mensHealth, href: "#mens-health" },
-    { label: t.nav.nutrition, href: "#nutrition" },
-    { label: t.nav.supplements, href: "#supplements" },
-    { label: t.nav.peptides, href: "#peptides" },
-    { label: t.nav.hair, href: "#hair" },
-    { label: t.nav.skincare, href: "#skincare" },
+    { label: t.nav.weightLoss, href: "/#weight-loss" },
+    { label: t.nav.womensHealth, href: "/#womens-health" },
+    { label: t.nav.mensHealth, href: "/#mens-health" },
+    { label: t.nav.nutrition, href: "/#nutrition" },
+    { label: t.nav.peptides, href: "/#peptides" },
+    { label: t.nav.about, href: "/about" },
+    { label: t.nav.faq, href: "/faq" },
+    { label: t.nav.contact, href: "/contact" },
   ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-sand-50/85 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
-        <a href="#top" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <span
             aria-hidden
             className="grid h-8 w-8 place-items-center rounded-full bg-brand-700 text-white font-display text-lg"
