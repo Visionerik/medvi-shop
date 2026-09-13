@@ -8,7 +8,7 @@ const base = translations[defaultLocale];
 export const metadata: Metadata = {
   title: base.meta.title,
   description: base.meta.description,
-  metadataBase: new URL("https://home.medvi.org"),
+  metadataBase: new URL("https://pepvi.health"),
   openGraph: {
     title: base.meta.ogTitle,
     description: base.meta.ogDescription,

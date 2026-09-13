@@ -760,7 +760,7 @@ export const translations: Record<Locale, Translation> = {
           ],
         },
         channels: [
-          { label: "Email", value: "support@medvi.org", href: "mailto:support@medvi.org" },
+          { label: "Email", value: "support@pepvi.health", href: "mailto:support@pepvi.health" },
           { label: "Phone", value: "1-800-MEDVI-RX" },
           { label: "Patient portal", value: "Sign in to message your care team" },
         ],
@@ -820,7 +820,7 @@ export const translations: Record<Locale, Translation> = {
           {
             heading: "7. Contact",
             body: [
-              "Privacy questions or requests: privacy@medvi.org. We respond to verified requests within 30 days.",
+              "Privacy questions or requests: privacy@pepvi.health. We respond to verified requests within 30 days.",
             ],
           },
         ],
@@ -891,7 +891,7 @@ export const translations: Record<Locale, Translation> = {
           {
             heading: "10. Contact",
             body: [
-              "Questions about these Terms: legal@medvi.org.",
+              "Questions about these Terms: legal@pepvi.health.",
             ],
           },
         ],
@@ -1453,7 +1453,7 @@ export const translations: Record<Locale, Translation> = {
           ],
         },
         channels: [
-          { label: "E-Mail", value: "support@medvi.org", href: "mailto:support@medvi.org" },
+          { label: "E-Mail", value: "support@pepvi.health", href: "mailto:support@pepvi.health" },
           { label: "Telefon", value: "1-800-MEDVI-RX" },
           { label: "Patientenportal", value: "Anmelden und Team schreiben" },
         ],
@@ -1513,7 +1513,7 @@ export const translations: Record<Locale, Translation> = {
           {
             heading: "7. Kontakt",
             body: [
-              "Datenschutzanfragen: privacy@medvi.org. Wir bearbeiten verifizierte Anfragen innerhalb von 30 Tagen.",
+              "Datenschutzanfragen: privacy@pepvi.health. Wir bearbeiten verifizierte Anfragen innerhalb von 30 Tagen.",
             ],
           },
         ],
@@ -1584,7 +1584,7 @@ export const translations: Record<Locale, Translation> = {
           {
             heading: "10. Kontakt",
             body: [
-              "Fragen zu diesen Bedingungen: legal@medvi.org.",
+              "Fragen zu diesen Bedingungen: legal@pepvi.health.",
             ],
           },
         ],
