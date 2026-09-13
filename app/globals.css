@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #faf7f2;
+  --foreground: #0f1a1f;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-brand-700 px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-brand-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-brand-700/30 bg-white/70 px-6 py-3 text-sm font-semibold text-brand-800 backdrop-blur transition hover:bg-white hover:border-brand-700/60;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-700/20 bg-white/70 px-3 py-1 text-xs font-medium uppercase tracking-widest text-brand-800 backdrop-blur;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white shadow-card ring-1 ring-black/5;
+  }
+
+  .heading-display {
+    @apply font-display text-4xl leading-tight text-ink-900 sm:text-5xl md:text-6xl;
+  }
+}
+
+/* Marquee for testimonials */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
