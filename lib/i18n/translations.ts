@@ -111,10 +111,10 @@ export const translations: Record<Locale, Translation> = {
   en: {
     htmlLang: "en",
     meta: {
-      title: "Pepvi — Healthcare, redefined for real life",
+      title: "MEDVi — Healthcare, redefined for real life",
       description:
         "Doctor-guided telehealth for weight loss, hormones, longevity, skincare, and more. Personalized care delivered to your door.",
-      ogTitle: "Pepvi — Healthcare, redefined for real life",
+      ogTitle: "MEDVi — Healthcare, redefined for real life",
       ogDescription:
         "Doctor-guided telehealth for weight loss, hormones, longevity, skincare, and more.",
     },
@@ -206,7 +206,7 @@ export const translations: Record<Locale, Translation> = {
       },
       nutrition: {
         eyebrow: "Metabolic Nutrition",
-        title: "Pepvi Meals — real food, engineered for results.",
+        title: "MEDVi Meals — real food, engineered for results.",
         description:
           "Chef-prepared meals designed by our metabolic team to complement your protocol. Delivered fresh, ready in three minutes, portioned to your goals.",
         bullets: [
@@ -305,7 +305,7 @@ export const translations: Record<Locale, Translation> = {
     },
     testimonials: {
       eyebrow: "Real patients · Real outcomes",
-      title: "250,000+ people trust Pepvi with their care.",
+      title: "250,000+ people trust MEDVi with their care.",
       description: "Verified reviews from patients across all 50 states.",
       reviews: [
         {
@@ -331,7 +331,7 @@ export const translations: Record<Locale, Translation> = {
         },
         {
           name: "Priya S.",
-          program: "Pepvi Meals",
+          program: "MEDVi Meals",
           stars: 5,
           quote:
             "The meals are surprisingly delicious and portioned exactly to my macros. Zero decision fatigue.",
@@ -362,7 +362,7 @@ export const translations: Record<Locale, Translation> = {
     },
     footer: {
       description:
-        "Pepvi is a telehealth platform that connects patients with U.S.-licensed clinicians and partner pharmacies. Healthcare, redefined for real life.",
+        "MEDVi is a telehealth platform that connects patients with U.S.-licensed clinicians and partner pharmacies. Healthcare, redefined for real life.",
       partnersLabel: "Pharmacy partners",
       partnersValue:
         "Licensed 503A & 503B compounding facilities · FDA-registered",
@@ -381,7 +381,7 @@ export const translations: Record<Locale, Translation> = {
         {
           title: "Nutrition",
           links: [
-            { label: "Pepvi Meals", href: "#nutrition" },
+            { label: "MEDVi Meals", href: "#nutrition" },
             { label: "Supplements", href: "#supplements" },
             { label: "Meal Plans", href: "#nutrition" },
             { label: "Metabolic Coaching", href: "#nutrition" },
@@ -410,7 +410,7 @@ export const translations: Record<Locale, Translation> = {
       disclaimer:
         "The information on this site is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Compounded medications are not FDA-approved and are not evaluated for safety or efficacy by the FDA. GLP-1 medications are prescription only and may not be appropriate for all patients. Individual results vary.",
       copyright: (year: number) =>
-        `© ${year} Pepvi Health, Inc. All rights reserved.`,
+        `© ${year} MEDVi Health, Inc. All rights reserved.`,
       legal: [
         { label: "Privacy Policy", href: "#privacy" },
         { label: "Terms of Service", href: "#terms" },
@@ -423,10 +423,10 @@ export const translations: Record<Locale, Translation> = {
   de: {
     htmlLang: "de",
     meta: {
-      title: "Pepvi — Gesundheitsversorgung, neu gedacht für den Alltag",
+      title: "MEDVi — Gesundheitsversorgung, neu gedacht für den Alltag",
       description:
         "Ärztlich geführte Telemedizin für Gewichtsverlust, Hormone, Langlebigkeit, Hautpflege und mehr. Persönliche Betreuung direkt bis vor Ihre Tür.",
-      ogTitle: "Pepvi — Gesundheitsversorgung, neu gedacht für den Alltag",
+      ogTitle: "MEDVi — Gesundheitsversorgung, neu gedacht für den Alltag",
       ogDescription:
         "Ärztlich geführte Telemedizin für Gewichtsverlust, Hormone, Langlebigkeit, Hautpflege und mehr.",
     },
@@ -518,7 +518,7 @@ export const translations: Record<Locale, Translation> = {
       },
       nutrition: {
         eyebrow: "Stoffwechselernährung",
-        title: "Pepvi Meals — echte Lebensmittel, entwickelt für Ergebnisse.",
+        title: "MEDVi Meals — echte Lebensmittel, entwickelt für Ergebnisse.",
         description:
           "Von Köchen zubereitete Mahlzeiten, entwickelt von unserem Stoffwechsel-Team als Ergänzung zu Ihrem Protokoll. Frisch geliefert, in drei Minuten fertig, passend zu Ihren Zielen portioniert.",
         bullets: [
@@ -617,7 +617,7 @@ export const translations: Record<Locale, Translation> = {
     },
     testimonials: {
       eyebrow: "Echte Patienten · Echte Ergebnisse",
-      title: "Über 250.000 Menschen vertrauen Pepvi ihre Betreuung an.",
+      title: "Über 250.000 Menschen vertrauen MEDVi ihre Betreuung an.",
       description:
         "Verifizierte Bewertungen von Patienten aus allen 50 Bundesstaaten.",
       reviews: [
@@ -644,7 +644,7 @@ export const translations: Record<Locale, Translation> = {
         },
         {
           name: "Priya S.",
-          program: "Pepvi Meals",
+          program: "MEDVi Meals",
           stars: 5,
           quote:
             "Die Mahlzeiten sind überraschend lecker und exakt auf meine Makros portioniert. Keine Entscheidungen mehr treffen zu müssen.",
@@ -675,7 +675,7 @@ export const translations: Record<Locale, Translation> = {
     },
     footer: {
       description:
-        "Pepvi ist eine Telemedizin-Plattform, die Patienten mit in den USA zugelassenen Ärzten und Partner-Apotheken verbindet. Gesundheit, neu gedacht für den Alltag.",
+        "MEDVi ist eine Telemedizin-Plattform, die Patienten mit in den USA zugelassenen Ärzten und Partner-Apotheken verbindet. Gesundheit, neu gedacht für den Alltag.",
       partnersLabel: "Apotheken-Partner",
       partnersValue:
         "Zugelassene 503A- & 503B-Rezepturbetriebe · FDA-registriert",
@@ -694,7 +694,7 @@ export const translations: Record<Locale, Translation> = {
         {
           title: "Ernährung",
           links: [
-            { label: "Pepvi Meals", href: "#nutrition" },
+            { label: "MEDVi Meals", href: "#nutrition" },
             { label: "Nahrungsergänzung", href: "#supplements" },
             { label: "Ernährungspläne", href: "#nutrition" },
             { label: "Stoffwechsel-Coaching", href: "#nutrition" },
@@ -723,7 +723,7 @@ export const translations: Record<Locale, Translation> = {
       disclaimer:
         "Die Informationen auf dieser Seite dienen ausschließlich Bildungszwecken und ersetzen keine professionelle medizinische Beratung, Diagnose oder Behandlung. Rezeptur-Medikamente sind nicht von der FDA zugelassen und werden von der FDA nicht auf Sicherheit oder Wirksamkeit geprüft. GLP-1-Medikamente sind verschreibungspflichtig und möglicherweise nicht für alle Patienten geeignet. Individuelle Ergebnisse können abweichen.",
       copyright: (year: number) =>
-        `© ${year} Pepvi Health, Inc. Alle Rechte vorbehalten.`,
+        `© ${year} MEDVi Health, Inc. Alle Rechte vorbehalten.`,
       legal: [
         { label: "Datenschutz", href: "#privacy" },
         { label: "Nutzungsbedingungen", href: "#terms" },

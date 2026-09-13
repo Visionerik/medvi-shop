@@ -20,7 +20,7 @@ export default function Footer() {
                 M
               </span>
               <span className="font-display text-xl tracking-tight text-ink-900">
-                Pepvi
+                MEDVi
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-700">
