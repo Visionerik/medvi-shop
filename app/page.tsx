@@ -6,6 +6,8 @@ import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Reveal from "@/components/Reveal";
+import MobileStickyCTA from "@/components/MobileStickyCTA";
 import {
   ScaleIcon,
   HeartIcon,
@@ -34,15 +36,26 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <TrustStrip />
+        <Reveal>
+          <TrustStrip />
+        </Reveal>
         {programs.map((p) => (
-          <ProgramSection key={p.id} program={p} />
+          <Reveal key={p.id}>
+            <ProgramSection program={p} />
+          </Reveal>
         ))}
-        <HowItWorks />
-        <Testimonials />
-        <CTA />
+        <Reveal>
+          <HowItWorks />
+        </Reveal>
+        <Reveal>
+          <Testimonials />
+        </Reveal>
+        <Reveal>
+          <CTA />
+        </Reveal>
       </main>
       <Footer />
+      <MobileStickyCTA />
     </>
   );
 }

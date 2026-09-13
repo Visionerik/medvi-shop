@@ -7,10 +7,18 @@ export default function Hero() {
   const h = t.hero;
 
   return (
-    <section id="top" className="relative overflow-hidden bg-hero-radial">
-      <div className="absolute inset-x-0 top-0 h-[520px] bg-gradient-to-b from-brand-100/60 via-sand-50 to-sand-50" />
+    <section id="top" className="relative overflow-hidden bg-hero-mesh">
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[600px] bg-sage-fade" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -left-24 top-40 h-96 w-96 rounded-full bg-brand-300/25 blur-3xl"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute right-0 top-10 h-80 w-80 rounded-full bg-mint-200/50 blur-3xl"
+      />
       <div className="container-x relative pt-16 pb-20 sm:pt-24 sm:pb-28 lg:grid lg:grid-cols-12 lg:gap-12">
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-7 animate-fade-up">
           <span className="eyebrow">
             <span className="h-1.5 w-1.5 rounded-full bg-brand-600" />
             {h.eyebrow}
@@ -70,16 +78,16 @@ export default function Hero() {
           </dl>
         </div>
 
-        <div className="mt-14 lg:col-span-5 lg:mt-0">
+        <div className="mt-14 lg:col-span-5 lg:mt-0 animate-fade-up [animation-delay:150ms]">
           <div className="relative mx-auto max-w-md">
-            <div className="absolute -inset-6 rounded-[3rem] bg-gradient-to-br from-brand-200/60 via-sand-100 to-white blur-2xl" />
-            <div className="relative overflow-hidden rounded-[2.5rem] bg-white shadow-soft ring-1 ring-black/5">
+            <div className="absolute -inset-8 rounded-[3rem] bg-gradient-to-br from-mint-200/70 via-sand-100 to-white blur-3xl" />
+            <div className="relative overflow-hidden rounded-[2.5rem] bg-white shadow-glow ring-1 ring-black/5">
               <div
-                className="aspect-[4/5] w-full bg-gradient-to-br from-brand-100 via-sand-100 to-white"
+                className="aspect-[4/5] w-full bg-gradient-to-br from-mint-100 via-sand-100 to-white"
                 aria-hidden
               >
                 <div className="flex h-full flex-col justify-end p-8">
-                  <div className="mx-auto w-40 h-40 rounded-full bg-brand-600/10 grid place-items-center">
+                  <div className="mx-auto w-40 h-40 rounded-full bg-brand-600/10 grid place-items-center ring-8 ring-white/40">
                     <div className="w-24 h-24 rounded-full bg-white shadow-card grid place-items-center">
                       <span className="font-display text-4xl text-brand-700">
                         Rx

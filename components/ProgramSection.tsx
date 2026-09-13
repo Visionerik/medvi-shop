@@ -15,7 +15,7 @@ export type Program = {
 };
 
 const accentMap: Record<NonNullable<Program["accent"]>, string> = {
-  brand: "from-brand-100 via-sand-50 to-white",
+  brand: "from-mint-100 via-sand-50 to-white",
   sand: "from-sand-100 via-sand-50 to-white",
   rose: "from-rose-100 via-sand-50 to-white",
   blue: "from-sky-100 via-sand-50 to-white",
@@ -68,13 +68,13 @@ export default function ProgramSection({ program }: { program: Program }) {
         </div>
 
         <div className={reverse ? "lg:order-1" : ""}>
-          <div className="relative">
-            <div className={`absolute -inset-6 rounded-[3rem] bg-gradient-to-br ${accentMap[accent]} blur-2xl`} />
-            <div className="relative overflow-hidden rounded-[2rem] bg-white p-8 shadow-card ring-1 ring-black/5">
+          <div className="group relative">
+            <div className={`absolute -inset-8 rounded-[3rem] bg-gradient-to-br ${accentMap[accent]} blur-3xl transition duration-500 group-hover:opacity-90`} />
+            <div className="relative overflow-hidden rounded-[2rem] bg-white p-8 shadow-card ring-1 ring-black/5 transition duration-500 group-hover:-translate-y-1 group-hover:shadow-glow">
               <div
                 className={`grid aspect-[5/4] w-full place-items-center rounded-2xl bg-gradient-to-br ${accentMap[accent]}`}
               >
-                <div className="grid h-24 w-24 place-items-center rounded-full bg-white shadow-soft">
+                <div className="grid h-24 w-24 place-items-center rounded-full bg-white shadow-soft ring-4 ring-white/60 transition duration-500 group-hover:scale-105">
                   <div className="text-brand-700">{icon}</div>
                 </div>
               </div>

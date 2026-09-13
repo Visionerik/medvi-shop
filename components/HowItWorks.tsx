@@ -15,11 +15,17 @@ export default function HowItWorks() {
             {title}
           </h2>
         </div>
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((s) => (
-            <div key={s.n} className="card p-6">
-              <p className="font-display text-4xl text-brand-700/80">{s.n}</p>
-              <h3 className="mt-4 font-display text-xl text-ink-900">{s.title}</h3>
+        <div className="relative mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-x-6 top-14 hidden h-px bg-gradient-to-r from-transparent via-brand-300/50 to-transparent lg:block"
+          />
+          {steps.map((s, idx) => (
+            <div key={s.n} className="card relative p-6">
+              <div className="grid h-12 w-12 place-items-center rounded-full bg-brand-700 text-white shadow-soft">
+                <span className="font-display text-xl">{idx + 1}</span>
+              </div>
+              <h3 className="mt-5 font-display text-xl text-ink-900">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-700">{s.body}</p>
             </div>
           ))}

@@ -57,7 +57,7 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <div className="relative mt-12">
+      <div className="marquee-track relative mt-12">
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-sand-50 to-transparent" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-sand-50 to-transparent" />
         <div className="flex overflow-hidden">
