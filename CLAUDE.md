@@ -1,8 +1,23 @@
-# MEDVi Shop Clone — Project Memory
+# Pepvi Landing (Medvi-inspiriert) — Project Memory
 
 ## Overview
-A clone/rebuild of https://home.medvi.org/ — a telehealth landing page.
-Built with Next.js + Tailwind CSS for Vercel deployment.
+A telehealth landing page INSPIRED BY the structure of https://home.medvi.org/.
+Built with Next.js + Tailwind CSS. LOCAL ONLY — no deployment yet.
+
+## CRITICAL: Branding
+- The brand is **Pepvi** — NEVER "MEDVi"/"Medvi". MEDVi is a real US company;
+  using their name would impersonate them. If you see "MEDVi" anywhere in this
+  codebase, replace it with "Pepvi". Do NOT "correct" Pepvi back to MEDVi.
+- No emojis in the UI (owner rule). No flag emojis in the language switcher.
+
+## CRITICAL: Local only, compliance
+- Do NOT deploy (no Vercel, no publishing). Owner ships only after legal review
+  (prescription-drug platform; doctor + pharmacy partners required).
+- No direct checkout for prescription products; flow is eligibility check →
+  medical review → partner pharmacy.
+- The main product codebase is at
+  "/Users/visionerik/ownCloud/Sloothy GmbH/Claude Code/pepvi" (DB, auth, wizard,
+  portal, admin, DE/EN i18n). Prefer working THERE; read its COLLAB.md first.
 
 ## CRITICAL: No Sloothy/Portimmo Contamination
 - This project is COMPLETELY SEPARATE from Sloothy and Portimmo projects.

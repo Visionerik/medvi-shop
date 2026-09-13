@@ -30,7 +30,7 @@ export default function Header() {
             M
           </span>
           <span className="font-display text-xl tracking-tight text-ink-900">
-            MEDVi
+            Pepvi
           </span>
         </a>
 
